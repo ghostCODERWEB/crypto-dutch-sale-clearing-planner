@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools>=75"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "crypto-dutch-sale-clearing-planner"
+version = "0.1.0"
+description = "Replay declining sale prices and fill bounded demand while reconciling token inventory and proceeds."
+requires-python = ">=3.11"
+license = "MIT"
+
+[project.scripts]
+crypto-dutch-sale-clearing-planner = "cryptolab:main"
+
+[tool.setuptools.packages.find]
+include = ["cryptolab*"]
+
+[tool.setuptools.package-data]
+cryptolab = ["web/*"]

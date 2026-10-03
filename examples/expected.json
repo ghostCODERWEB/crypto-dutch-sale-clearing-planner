@@ -1,0 +1,14 @@
+{
+  "orders": [
+    {
+      "cost": 24,
+      "filled": 4,
+      "price": 6,
+      "refund": 1,
+      "timestamp": 5
+    }
+  ],
+  "proceeds": 24,
+  "remaining": 6,
+  "sold": 4
+}

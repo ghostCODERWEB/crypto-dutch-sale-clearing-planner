@@ -1,0 +1,15 @@
+{
+  "start": 0,
+  "duration": 10,
+  "start_price": 10,
+  "end_price": 2,
+  "inventory": 10,
+  "orders": [
+    {
+      "timestamp": 5,
+      "budget": 25,
+      "wanted": 10,
+      "max_price": 6
+    }
+  ]
+}
